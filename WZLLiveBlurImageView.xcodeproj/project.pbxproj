@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA491981AC0064B00B777F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA491971AC0064B00B777F8 /* main.m */; };
+		CEA4919B1AC0064B00B777F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4919A1AC0064B00B777F8 /* AppDelegate.m */; };
+		CEA4919E1AC0064B00B777F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4919D1AC0064B00B777F8 /* ViewController.m */; };
+		CEA491A11AC0064B00B777F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4919F1AC0064B00B777F8 /* Main.storyboard */; };
+		CEA491A31AC0064B00B777F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA491A21AC0064B00B777F8 /* Images.xcassets */; };
+		CEA491A61AC0064B00B777F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA491A41AC0064B00B777F8 /* LaunchScreen.xib */; };
+		CEA491B21AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA491B11AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA491AC1AC0064C00B777F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA4918A1AC0064B00B777F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA491911AC0064B00B777F8;
+			remoteInfo = WZLLiveBlurImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA491921AC0064B00B777F8 /* WZLLiveBlurImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZLLiveBlurImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA491961AC0064B00B777F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA491971AC0064B00B777F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA491991AC0064B00B777F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA4919A1AC0064B00B777F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA4919C1AC0064B00B777F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEA4919D1AC0064B00B777F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEA491A01AC0064B00B777F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA491A21AC0064B00B777F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA491A51AC0064B00B777F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEA491AB1AC0064C00B777F8 /* WZLLiveBlurImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZLLiveBlurImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA491B01AC0064C00B777F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA491B11AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLLiveBlurImageViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA4918F1AC0064B00B777F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA491A81AC0064C00B777F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA491891AC0064B00B777F8 = {
+			isa = PBXGroup;
+			children = (
+				CEA491941AC0064B00B777F8 /* WZLLiveBlurImageView */,
+				CEA491AE1AC0064C00B777F8 /* WZLLiveBlurImageViewTests */,
+				CEA491931AC0064B00B777F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA491931AC0064B00B777F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA491921AC0064B00B777F8 /* WZLLiveBlurImageView.app */,
+				CEA491AB1AC0064C00B777F8 /* WZLLiveBlurImageViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA491941AC0064B00B777F8 /* WZLLiveBlurImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CEA491991AC0064B00B777F8 /* AppDelegate.h */,
+				CEA4919A1AC0064B00B777F8 /* AppDelegate.m */,
+				CEA4919C1AC0064B00B777F8 /* ViewController.h */,
+				CEA4919D1AC0064B00B777F8 /* ViewController.m */,
+				CEA4919F1AC0064B00B777F8 /* Main.storyboard */,
+				CEA491A21AC0064B00B777F8 /* Images.xcassets */,
+				CEA491A41AC0064B00B777F8 /* LaunchScreen.xib */,
+				CEA491951AC0064B00B777F8 /* Supporting Files */,
+			);
+			path = WZLLiveBlurImageView;
+			sourceTree = "<group>";
+		};
+		CEA491951AC0064B00B777F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA491961AC0064B00B777F8 /* Info.plist */,
+				CEA491971AC0064B00B777F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA491AE1AC0064C00B777F8 /* WZLLiveBlurImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA491B11AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m */,
+				CEA491AF1AC0064C00B777F8 /* Supporting Files */,
+			);
+			path = WZLLiveBlurImageViewTests;
+			sourceTree = "<group>";
+		};
+		CEA491AF1AC0064C00B777F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA491B01AC0064C00B777F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA491911AC0064B00B777F8 /* WZLLiveBlurImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA491B51AC0064C00B777F8 /* Build configuration list for PBXNativeTarget "WZLLiveBlurImageView" */;
+			buildPhases = (
+				CEA4918E1AC0064B00B777F8 /* Sources */,
+				CEA4918F1AC0064B00B777F8 /* Frameworks */,
+				CEA491901AC0064B00B777F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZLLiveBlurImageView;
+			productName = WZLLiveBlurImageView;
+			productReference = CEA491921AC0064B00B777F8 /* WZLLiveBlurImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA491AA1AC0064C00B777F8 /* WZLLiveBlurImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA491B81AC0064C00B777F8 /* Build configuration list for PBXNativeTarget "WZLLiveBlurImageViewTests" */;
+			buildPhases = (
+				CEA491A71AC0064C00B777F8 /* Sources */,
+				CEA491A81AC0064C00B777F8 /* Frameworks */,
+				CEA491A91AC0064C00B777F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA491AD1AC0064C00B777F8 /* PBXTargetDependency */,
+			);
+			name = WZLLiveBlurImageViewTests;
+			productName = WZLLiveBlurImageViewTests;
+			productReference = CEA491AB1AC0064C00B777F8 /* WZLLiveBlurImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA4918A1AC0064B00B777F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Weng-Zilin";
+				TargetAttributes = {
+					CEA491911AC0064B00B777F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CEA491AA1AC0064C00B777F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CEA491911AC0064B00B777F8;
+					};
+				};
+			};
+			buildConfigurationList = CEA4918D1AC0064B00B777F8 /* Build configuration list for PBXProject "WZLLiveBlurImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA491891AC0064B00B777F8;
+			productRefGroup = CEA491931AC0064B00B777F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA491911AC0064B00B777F8 /* WZLLiveBlurImageView */,
+				CEA491AA1AC0064C00B777F8 /* WZLLiveBlurImageViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA491901AC0064B00B777F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA491A11AC0064B00B777F8 /* Main.storyboard in Resources */,
+				CEA491A61AC0064B00B777F8 /* LaunchScreen.xib in Resources */,
+				CEA491A31AC0064B00B777F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA491A91AC0064C00B777F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA4918E1AC0064B00B777F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4919E1AC0064B00B777F8 /* ViewController.m in Sources */,
+				CEA4919B1AC0064B00B777F8 /* AppDelegate.m in Sources */,
+				CEA491981AC0064B00B777F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA491A71AC0064C00B777F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA491B21AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA491AD1AC0064C00B777F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA491911AC0064B00B777F8 /* WZLLiveBlurImageView */;
+			targetProxy = CEA491AC1AC0064C00B777F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA4919F1AC0064B00B777F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA491A01AC0064B00B777F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA491A41AC0064B00B777F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA491A51AC0064B00B777F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA491B31AC0064C00B777F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEA491B41AC0064C00B777F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA491B61AC0064C00B777F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZLLiveBlurImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEA491B71AC0064C00B777F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZLLiveBlurImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEA491B91AC0064C00B777F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WZLLiveBlurImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZLLiveBlurImageView.app/WZLLiveBlurImageView";
+			};
+			name = Debug;
+		};
+		CEA491BA1AC0064C00B777F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WZLLiveBlurImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZLLiveBlurImageView.app/WZLLiveBlurImageView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA4918D1AC0064B00B777F8 /* Build configuration list for PBXProject "WZLLiveBlurImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA491B31AC0064C00B777F8 /* Debug */,
+				CEA491B41AC0064C00B777F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA491B51AC0064C00B777F8 /* Build configuration list for PBXNativeTarget "WZLLiveBlurImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA491B61AC0064C00B777F8 /* Debug */,
+				CEA491B71AC0064C00B777F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA491B81AC0064C00B777F8 /* Build configuration list for PBXNativeTarget "WZLLiveBlurImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA491B91AC0064C00B777F8 /* Debug */,
+				CEA491BA1AC0064C00B777F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA4918A1AC0064B00B777F8 /* Project object */;
+}
