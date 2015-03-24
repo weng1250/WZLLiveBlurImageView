@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191EA2E41AC019C900E3905B /* WZLLiveBlurImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 191EA2E31AC019C900E3905B /* WZLLiveBlurImageView.m */; };
+		191EA2E71AC01B9D00E3905B /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 191EA2E61AC01B9D00E3905B /* UIImage+Blur.m */; };
+		19F485241AC1120A00FCE457 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19F485231AC1120A00FCE457 /* bg.jpg */; };
 		CEA491981AC0064B00B777F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA491971AC0064B00B777F8 /* main.m */; };
 		CEA4919B1AC0064B00B777F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4919A1AC0064B00B777F8 /* AppDelegate.m */; };
-		CEA4919E1AC0064B00B777F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4919D1AC0064B00B777F8 /* ViewController.m */; };
 		CEA491A11AC0064B00B777F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4919F1AC0064B00B777F8 /* Main.storyboard */; };
 		CEA491A31AC0064B00B777F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA491A21AC0064B00B777F8 /* Images.xcassets */; };
 		CEA491A61AC0064B00B777F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA491A41AC0064B00B777F8 /* LaunchScreen.xib */; };
 		CEA491B21AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA491B11AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m */; };
+		CEA491BD1AC0086400B777F8 /* MainTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA491BC1AC0086400B777F8 /* MainTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191EA2E21AC019C900E3905B /* WZLLiveBlurImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLLiveBlurImageView.h; sourceTree = "<group>"; };
+		191EA2E31AC019C900E3905B /* WZLLiveBlurImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLLiveBlurImageView.m; sourceTree = "<group>"; };
+		191EA2E51AC01B9D00E3905B /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		191EA2E61AC01B9D00E3905B /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		19F485231AC1120A00FCE457 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		CEA491921AC0064B00B777F8 /* WZLLiveBlurImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZLLiveBlurImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA491961AC0064B00B777F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA491971AC0064B00B777F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEA491991AC0064B00B777F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEA4919A1AC0064B00B777F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEA4919C1AC0064B00B777F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEA4919D1AC0064B00B777F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEA491A01AC0064B00B777F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA491A21AC0064B00B777F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEA491A51AC0064B00B777F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CEA491AB1AC0064C00B777F8 /* WZLLiveBlurImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZLLiveBlurImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA491B01AC0064C00B777F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA491B11AC0064C00B777F8 /* WZLLiveBlurImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLLiveBlurImageViewTests.m; sourceTree = "<group>"; };
+		CEA491BB1AC0086400B777F8 /* MainTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableVC.h; sourceTree = "<group>"; };
+		CEA491BC1AC0086400B777F8 /* MainTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		191EA2E11AC0199A00E3905B /* WZLLiveBlurImageView */ = {
+			isa = PBXGroup;
+			children = (
+				191EA2E21AC019C900E3905B /* WZLLiveBlurImageView.h */,
+				191EA2E31AC019C900E3905B /* WZLLiveBlurImageView.m */,
+				191EA2E51AC01B9D00E3905B /* UIImage+Blur.h */,
+				191EA2E61AC01B9D00E3905B /* UIImage+Blur.m */,
+			);
+			name = WZLLiveBlurImageView;
+			sourceTree = "<group>";
+		};
 		CEA491891AC0064B00B777F8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +100,12 @@
 		CEA491941AC0064B00B777F8 /* WZLLiveBlurImageView */ = {
 			isa = PBXGroup;
 			children = (
+				191EA2E11AC0199A00E3905B /* WZLLiveBlurImageView */,
+				19F485231AC1120A00FCE457 /* bg.jpg */,
 				CEA491991AC0064B00B777F8 /* AppDelegate.h */,
 				CEA4919A1AC0064B00B777F8 /* AppDelegate.m */,
-				CEA4919C1AC0064B00B777F8 /* ViewController.h */,
-				CEA4919D1AC0064B00B777F8 /* ViewController.m */,
+				CEA491BB1AC0086400B777F8 /* MainTableVC.h */,
+				CEA491BC1AC0086400B777F8 /* MainTableVC.m */,
 				CEA4919F1AC0064B00B777F8 /* Main.storyboard */,
 				CEA491A21AC0064B00B777F8 /* Images.xcassets */,
 				CEA491A41AC0064B00B777F8 /* LaunchScreen.xib */,
@@ -202,6 +223,7 @@
 				CEA491A11AC0064B00B777F8 /* Main.storyboard in Resources */,
 				CEA491A61AC0064B00B777F8 /* LaunchScreen.xib in Resources */,
 				CEA491A31AC0064B00B777F8 /* Images.xcassets in Resources */,
+				19F485241AC1120A00FCE457 /* bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA4919E1AC0064B00B777F8 /* ViewController.m in Sources */,
+				191EA2E71AC01B9D00E3905B /* UIImage+Blur.m in Sources */,
+				191EA2E41AC019C900E3905B /* WZLLiveBlurImageView.m in Sources */,
 				CEA4919B1AC0064B00B777F8 /* AppDelegate.m in Sources */,
+				CEA491BD1AC0086400B777F8 /* MainTableVC.m in Sources */,
 				CEA491981AC0064B00B777F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +436,7 @@
 				CEA491B71AC0064C00B777F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEA491B81AC0064C00B777F8 /* Build configuration list for PBXNativeTarget "WZLLiveBlurImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +445,7 @@
 				CEA491BA1AC0064C00B777F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

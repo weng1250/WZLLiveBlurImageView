@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTableVC.h
 //  WZLLiveBlurImageView
 //
 //  Created by zilin_weng on 15/3/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainTableVC : UITableViewController
 
 @end
-
